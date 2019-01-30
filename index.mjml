@@ -1,0 +1,124 @@
+<mjml>
+  <mj-head>
+    <mj-include path="style.mjmlcss" />
+  </mj-head>
+  <mj-body background-color="#fff">
+
+    <!-- HEADER -->
+    <mj-section background-color="#34495E" full-width="full-width" padding='0'>
+
+      <mj-column width="50%" vertical-align="middle" padding='0'>
+        <mj-text padding='0'>
+          <div class="logo">
+            <img style='margin: 0' width='259px' src="logo.jpg" alt="" />
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text padding='0'>
+          <div class='social'>
+            <a href="#">
+              <img src="facebook.jpg" alt="facebook link">
+            </a>
+            <a href="#">
+              <img src="twitter.jpg" alt="facebook link">
+            </a>
+            <a href="#">
+              <img src="rss.jpg" alt="facebook link">
+            </a>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- BODY -->
+    <mj-text>
+      <div class="heading-section">
+        <h1>Heading 1</h1>
+        <p>
+          Lorem ipsum dolor sit amedt, consectetur adipiscing elit. Fusce egestas lectus at nisl ultrices pellentesque. Maecenas nisl massa, consequat et suscipit in, maximus sit amet erat. Vivamus nulla arcu, sollicitudin euismod nisi ac, blandit pharetra felis. Mauris mollis hendrerit augue iaculis euismod. Nam vitae leo ligula. Integer et risus in orci lobortis suscipit in eget sapien.
+        </p>
+        <ul>
+          <li>Super Interesting Bullet Point 1</li>
+          <li>Super Interesting Bullet Point 2</li>
+          <li>Super Interesting Bullet Point 3</li>
+        </ul>
+      </div>
+    </mj-text>
+
+    <mj-section full-width="full-width" background-repeat="no-repeat">
+      <mj-column width='50%' padding="0 17px 7px 17px">
+        <mj-text font-family='Arial' padding='17px 17px 20px 17px' align="center" color="#fff" font-size="14px" container-background-color='#4FC0E8'>
+          <span style="font-size: 33px; color: #fff">$299</span>
+          <p style='font-size: 15px; margin: 7px 0 0 0'>per month</p>
+        </mj-text>
+        <mj-text font-family='Arial' font-weight='bold' padding='12px 0 10px 0' container-background-color='#D6F1FA' font-size='20px' align='center' color='#454954'>
+          Basic
+        </mj-text>
+        <mj-text font-family='Arial' padding='0 0 10px 0' container-background-color='#D6F1FA' font-size='14px' align='center' color='#454954'>
+          Lots of clients &amp; users
+        </mj-text>
+        <mj-divider container-background-color='#D6F1FA' border-color='#A9E1F5' border-width='1px' />
+        <mj-text font-family='Arial' padding='11px 0 4px 0' container-background-color='#D6F1FA' font-size='14px' align='center' color='#454954'>
+          <p style='margin-top: 0'>250 SKU&apos;s</p>
+          <p>1 GB Storage</p>
+          <p>3,5% transaction fee</p>
+        </mj-text>
+        <mj-text font-family='Arial' font-size='14px' padding='30px' align='center' container-background-color='#E6E6EE'>
+          <a href="#" class='button' style='background: #4AAFDA;'>Try a Week</a>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width='50%' padding="0 17px 7px 17px">
+        <mj-text padding='0'>
+          <div class="spacer-on-mobile"></div>
+        </mj-text>
+        <mj-text font-family='Arial' padding='17px 17px 20px 17px' align="center" color="#fff" font-size="14px" container-background-color='#FACF54'>
+          <span style="font-size: 33px; color: #fff">$499</span>
+          <p style='font-size: 15px; margin: 7px 0 0 0'>per month</p>
+        </mj-text>
+        <mj-text font-family='Arial' font-weight='bold' padding='12px 0 10px 0' container-background-color='#FFFAEE' font-size='20px' align='center' color='#454954'>
+          Unlimited
+        </mj-text>
+        <mj-text font-family='Arial' padding='0 0 10px 0' container-background-color='#FFFAEE' font-size='14px' align='center' color='#454954'>
+          Lots of clients &amp; users
+        </mj-text>
+        <mj-divider container-background-color='#FFFAEE' border-color='#FFEBB9' border-width='1px' />
+        <mj-text font-family='Arial' padding='11px 0 4px 0' container-background-color='#FFFAEE' font-size='14px' align='center' color='#454954'>
+          <p style='margin-top: 0'>Unlimited SKU&apos;s</p>
+          <p>20 GB Storage</p>
+          <p>3,5% transaction fee</p>
+        </mj-text>
+        <mj-text font-family='Arial' font-size='14px' padding='30px' align='center' container-background-color='#E6E6EE'>
+          <a href="#" class='button' style='background: #F6BB43;'>Try a Week</a>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <!-- Contact Us -->
+    <mj-column padding='0' width="100%">
+      <mj-text font-family='Arial' font-size='26px' padding='0' align='center' color='#333'>
+        <span class='hide-on-mobile'>Want to learn more? Contact Us Today!</span>
+      </mj-text>
+      <mj-text font-family='Arial' padding='0' align='center'>
+        <a href="#" class='button contact-us'>Contact Us</a>
+      </mj-text>
+    </mj-column>
+
+
+    <!-- Footer -->
+    <mj-section full-width="full-width" background-color='#34495E'>
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text font-family='Arial' align="center" font-size="14px" padding="12px 0 13px 0" color='white'>
+          <a href="#" style='text-decoration: none; color: white'>CompanyA.com</a>
+          |
+          <a href="#" style='text-decoration: none; color: white'>Privacy Policy</a>
+          |
+          <a href="#" style='text-decoration: none; color: white'>Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
